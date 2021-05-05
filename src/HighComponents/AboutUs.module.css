@@ -1,0 +1,18 @@
+.forIMG{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.forIMG img{
+    width: 340px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 50% 40% ;
+}
+.forContIMG{
+margin-left: 10%;
+}
+.content img{
+    width: 500px;
+    
+}

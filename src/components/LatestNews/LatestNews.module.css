@@ -1,0 +1,35 @@
+.justBTN {
+    padding-left: 40%;    
+}
+
+.allProd{
+    padding:0 0 0 10%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 5fr 5fr;
+}
+.prod img{
+    max-height: 300px;
+    max-width: 450px;
+}
+.prod img:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px rgb(194, 187, 187);
+}
+.hdiv{
+  position: absolute
+}
+
+.prodSame{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    border-radius: 15%;
+    background: #c00!important;
+    cursor: pointer;
+    color: #fff
+}

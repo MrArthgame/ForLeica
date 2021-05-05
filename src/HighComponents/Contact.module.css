@@ -1,0 +1,18 @@
+.all {
+  width: 80%;
+  margin-left: 10%;
+  background:rgb(111, 111, 116);
+}
+.header{
+    display:grid;
+    grid-template-columns:30% 25% 30%;
+    border-bottom:2px solid #fff;
+}
+.nav{
+    display:grid;
+    grid-template-columns:40% 40%;
+    padding-left:10%;
+}
+.mapLocation{
+    margin: 20% 10% 0 10%;
+}

@@ -1,0 +1,20 @@
+.parent h1{
+    margin-left: 45%;
+    
+}
+
+.forContent{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 5%;
+}
+
+.forIMG img{
+ width: 400px;
+}
+
+.forTXT Button{
+    float: right;
+    background-color:red;
+    color:#fff
+}
