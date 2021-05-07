@@ -1,0 +1,36 @@
+.justBTN {
+    display: flex;
+    justify-content: center; 
+}
+
+.allProd{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.prod img{
+    max-height: 300px;
+    max-width: 450px;
+    transition: 1s;
+}
+.prod img:hover{
+    cursor: pointer;
+    filter: brightness(0.5);
+    transition: 1s;
+}
+.hdiv{
+    position: absolute;
+}
+
+.prodSame{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    border-radius: 15%;
+    background: #c00!important;
+    cursor: pointer;
+    color: #fff
+}

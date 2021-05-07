@@ -1,0 +1,25 @@
+.forIMG{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.forIMG img{
+    width: 340px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+     height: 80vh;
+}
+
+.content img{
+    width: 500px;
+}
+
+@media screen and (max-width:936px) {
+    .content{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

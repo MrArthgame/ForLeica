@@ -1,0 +1,41 @@
+.allSol{    
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.solSame {
+    position: relative;   
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.solSame:hover .hdiv{ 
+    transform: translate(0,150%);
+    transition: all 300ms;
+}
+
+.solSame:hover .hdiv h1{
+    color: white;
+    transition: all 300ms;
+}
+
+.hdiv{
+    position: absolute;
+    transition: all 300ms;
+}
+.hdiv h1{
+    color: rgb(84, 90, 90);
+    transition: all 300ms;
+}
+.sol img:hover{
+    cursor: pointer;
+     filter: brightness(0.5);
+     transition: all 300ms;
+}
+
+.sol img{
+    max-height: 400px;
+    max-width: 600px;
+    transition: all 300ms;
+}
